@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  outline: 1px solid gray;
+  height: 100vh;
+  flex-direction: column;
+  font-size: 16px;
+}
+.header{
+  outline: 1px solid gold;
+  height: 3rem;
+}
+.container{
+  outline: 1px solid lime;
+  display: flex;
+  height: inherit;
+}
+.content{
+  outline: 1px solid blue;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  height: auto;
+}
+.content_message{
+  outline: 1px solid gray;
+}
+.content_box{
+  outline: 1px solid green;
+  flex: 1 1 auto;
+  display: flex;
+  justify-content:space-around ;
+  align-items: flex-end;
+}
+.aside{
+  outline: 1px solid magenta;
+  flex: 0 0 25%;
+}
+.aside_box{
+    height: 70px;
+    width: 100%;
+    outline: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:0.5s
+}
+.aside_box:hover{
+  background:green
+}
+.footer{
+  outline: 1px solid salmon;
+  height: 5rem;
+  margin-top: auto;
+}
+.menu{
+  display: flex;
+}
+.menu-item{
+  list-style: none;
+  flex: 1;
+  outline: 1px solid cyan;
+  line-height: 3rem;
+  text-align: center;
+  transition: flex 0.5s;
+}
+.menu-item:hover{
+  flex: 2;
+}
+.box{
+  height: 50px;
+  width: 50px;
+  outline: 1px solid cyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.box2{
+  height: 70px;
+  width: 50px;
+  outline: 1px solid cyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition:0.5s
+}
+.box2:hover{
+  background: red;
+  height: 60%;
+}
+.box:hover{
+  background: gray;
+  height: 60%;
+}
